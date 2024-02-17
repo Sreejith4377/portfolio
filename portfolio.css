@@ -1,0 +1,1024 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gridlayout{
+    margin: auto;
+    width: 80%;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+.maindivul{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+   
+}
+.maindivul li{
+    list-style: none;
+    margin-right: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+   
+  
+    
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+}
+.maindivul li a {
+    color: black;
+    text-decoration: none;
+}
+.subdiv ul{
+    justify-content: space-between;
+    color: rebeccapurple;
+    font-size: large;
+
+}
+.downloadcv button{
+    padding: 10px 20px;
+    background-color: #2270FF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    border: none;    
+}
+.sidelogo h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    
+}
+.downloadcv{
+    padding-top: 5px;
+}
+.maindiv{
+    padding: 10px 0px;
+}
+.herosectionmain{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.name{
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 0px;
+
+}
+.hi{
+    padding: 10px 0px;
+}
+.full{
+    padding: 0px 0px 10px 0px;
+}
+.showcase{
+    padding: 0px 0px 20px 0px;
+    width: 66%;
+
+}
+.onlineconnections{
+    padding: 0px 0px 10px 0px;
+    width: 80%;
+
+}
+.hireme button{
+    padding: 8px 25px;
+    background-color: #2270FF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    border: none;    
+    cursor: pointer;
+
+}
+.sreejithname{
+    font-size: 40px;
+}
+.herosectionimage img{
+    height: 60vh;
+}
+.aboutusmain{
+    display: flex;
+}
+.aboutuscontent{
+    font-family: 'Poppins', sans-serif;
+
+}
+/* .sreejithimage img{
+width: 50%;
+} */
+.aboutuscontent {
+    padding: 20px 30px;
+
+}
+.aboutuscontent p{
+    width: 100%;
+    padding: 10px 0px;
+}
+.aboutuscontent h2{
+    padding: 10px 0px;
+    font-size: 35px;
+}
+.aboutuscontent h3{
+    padding: 10px 0px;
+    font-size: 25px;
+}
+.downloadcvaboutus button{
+    padding: 10px 20px;
+    background-color: #2270FF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    border: none;  
+    
+}
+.downloadcvaboutus{
+    padding: 10px 0px;
+}
+.sreejithimage img{
+    height: 80vh;
+    border-radius: 10px;
+
+}
+.aboutusmain{
+    gap: 150px;
+    padding: 30px 0px;
+}
+.bg{
+    background: url(./image/education.png);
+    height: 100vh;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 30px;
+}
+.educationqualificationheading h2{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 30px 0px;
+    font-size: 35px;
+}
+.webd{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.studiesone p{
+
+    color: #2270FF;
+}
+.college{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 20px 0px;
+    /* margin-left: 188px; */
+    /* gap: 0px; */
+}
+
+
+.studietwo p{
+
+    color: #2270FF;
+}
+.schoolhsc{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 20px 0px;
+    /* margin-left: 195px; */
+}
+.studiethree p{
+
+    color: #2270FF;
+}
+
+.schoolx{
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 20px 0px;
+    /* margin-left: 195px; */
+}
+.projects{
+    padding: 10px 0px;
+}
+
+.contacts{
+    padding: 20px  0px;
+}
+
+.webdeducation{
+    width: 30%;
+}
+.collegeeducation{
+    width: 30%;
+}
+.xiieducation{
+    width: 30%;
+}
+.xeducation{
+    width: 30%;
+}
+.studiesone{
+    width: 70%;
+}
+.studietwo{
+    width: 70%;
+}
+.studiethree{
+    width: 70%;
+}
+.studiefour{
+    width: 70%;
+}
+
+.studiefour p{
+
+    color: #2270FF;
+}
+.myskill{
+    
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 60px 0px;
+    font-size: 20px;
+}
+.skillone{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+.skilltwo{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.skillthree{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.projects h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.contacts h2{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 0px;    
+}
+
+.findme{
+    background: #2270FF;
+    height: 90vh;
+    width: 86%;
+    border-radius: 10px;
+}
+.findme h3{
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px 0px;
+    font-size: 30px;
+}
+.phoneimage{
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    gap: 10px;
+}
+.findme h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+
+}
+.emailimage {
+    display: flex;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    gap: 10px;
+
+}
+.phone{
+    padding: 13px 35px;
+}
+.email{
+    padding: 13px 35px;
+}
+.socialmedia{
+    
+        padding: 13px 35px;
+    
+}
+.address{
+    
+    padding: 13px 35px;
+
+}
+.phoneimage h5{
+    font-weight: 500;
+    color: white;
+
+}
+.address h5{
+    font-weight: 500;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+
+}
+
+.emailimage h5{
+    font-weight: 500;
+    color: white;
+    
+}
+.contactimage img{
+    width: 86%;
+    padding: 15px 0px;
+    border-radius: 15px;
+}
+.submitbutton button{
+    padding: 6px 15px;
+    background-color: #2270FF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 8px;
+    border: none;  
+    cursor: pointer;
+
+}
+.firstname{
+    padding: 12px 17px;
+    border-radius: 5px;
+}
+.lastname{
+    padding: 12px 17px;
+    margin-left: 15px;
+    border-radius: 5px;
+
+}
+.mobilenumber{
+    padding: 12px 17px;
+    border-radius: 5px;
+
+}
+.emailid{
+    padding: 12px 17px;
+    margin-left: 15px;
+    border-radius: 5px;
+
+
+}
+.subjectone{
+    padding: 18px 20px;
+    width: 90%;
+    border-radius: 5px;
+}
+.messageone{
+    border-radius: 5px;
+    padding: 15px 19px;
+}
+.contactdetailfull{
+    display: flex;
+    padding: 0px 0px 40px 0px;
+}
+.contactone{
+    width: 45%;
+}
+.contactform{
+    padding: 0px 74px;
+}
+.names{
+    padding: 20px 0px;
+    display: flex;
+}
+.mobileandemail{
+    padding: 20px 0px;
+    display: flex;
+}
+.subject{
+    padding: 20px 0px;
+}
+.message{
+    padding: 20px 0px;
+    
+}
+.footersection{
+    background-color: #2270FF;
+}
+.footername h2{
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 0px 10px 0px;
+    font-size: 30px;
+}
+
+.footerul li{
+    list-style: none;
+    margin-right: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+   
+  
+    
+}
+.footerul{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: white;
+    padding: 30px 0px;
+    
+   
+}
+.footerimages {
+    display: flex;
+    justify-content: center;
+    padding: 25px 0px;
+    gap: 50px;
+
+}
+.footerimages img{
+    /* padding: 0px 40px; */
+    width: 70%;
+}
+.copyrights p{
+    color: black;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 65px 0px 25px 0px;
+}
+.phoneimage img{
+    width: 6%;
+    height: 26px;
+    margin-top: 2px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.full{
+    color: black;
+}
+.footerul li a {
+    font-family: 'Poppins', sans-serif;
+    
+}
+.linkedinfooterimage{
+    padding: 0px 10px 0px 0px;
+}
+.whatsappfooterimage{
+    padding: 0px 10px 0px 0px;
+}
+.instagramfooterimage{
+    padding: 0px 10px 0px 0px;
+}
+.githubfooterimage{
+    padding: 0px 10px 0px 0px;
+}
+.mailfooterimage{
+    padding: 0px 10px 0px 0px;
+}
+.socialmediaimages{
+    padding: 6px 0px;
+}
+.stack{
+    padding: 0px 0px 20px 0px;
+}
+
+.projectone{
+    border: 1px solid grey;
+    width: 30%;
+}
+.projectonecontent{
+    padding: 30px 20px;
+    justify-content: center;
+}
+.sreejithprojects{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+}
+.projecttwo{
+    border: 1px solid grey;
+    width: 30%;
+}
+.projecttwocontent{
+    padding: 30px 20px;
+    justify-content: center;
+}
+.projectthree{
+    border: 1px solid grey;
+    width: 30%;
+}
+.projectthreecontent{
+    padding: 30px 20px;
+    justify-content: center;
+}
+
+.projecttwobutton button{
+    padding: 10px 15px;
+    background-color: #2270FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;  
+
+}
+.projectthreebutton button{
+    padding: 10px 15px;
+    background-color: #2270FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;  
+
+}
+.projectonebutton button{
+    padding: 10px 15px;
+    background-color: #2270FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;  
+
+}
+.projectonecontent h4{
+    font-family: 'Poppins', sans-serif;   
+    font-size: 22px;
+}
+.projecttwocontent h4{
+    font-family: 'Poppins', sans-serif;   
+    font-size: 22px;
+}
+.projectthreecontent h4{
+    font-family: 'Poppins', sans-serif;   
+    font-size: 22px;
+}
+.projectone img{
+    width: 100%;
+    /* margin-top: 12px; */
+    height: 28vh;
+}
+.projecttwo img{
+    width: 100%;
+    /* margin-top: 12px; */
+    height: 28vh;
+}
+.projectthree img{
+    width: 100%;
+    /* margin-top: 10px; */
+    height: 28vh;
+}
+/* .projectone{
+    border-radius: 10px;
+}
+.projecttwo{
+    border-radius: 10px;
+}
+.projectthree{
+    border-radius: 10px;
+} */
+
+.projectone p{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;   
+}
+.projecttwo p{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;   
+}
+.projectthree p{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;   
+}
+.projectonebutton{
+    margin-top: 25px;
+}
+.projecttwobutton{
+    margin-top: 25px;
+}
+.projectthreebutton{
+    margin-top: 25px;
+}
+
+.projectfour{
+    border: 1px solid grey;
+    width: 30%;
+}
+.projectfourcontent{
+    padding: 30px 20px;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;   
+}
+.projectfourbutton button{
+    padding: 10px 15px;
+    background-color: #2270FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;  
+
+}
+.projectfour img{
+    width: 100%;
+    /* margin-top: 12px; */
+    height: 28vh;
+}
+/* .projectfour{
+    border-radius: 10px;
+} */
+.projectfour p{
+    margin-top: 15px;
+}
+.projectfourbutton{
+    margin-top: 25px;
+}
+.projectfourcontent h4{
+    font-family: 'Poppins', sans-serif;   
+    font-size: 22px;
+}
+.sreejithprojectstwo{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px 0px 0px;
+}
+.projectfive{
+    border: 1px solid grey;
+    width: 30%;
+}
+.projectfivecontent{
+    padding: 30px 20px;
+    justify-content: center;
+}
+.projectfivebutton button{
+    padding: 10px 15px;
+    background-color: #2270FF;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;  
+
+}
+.projectfive img{
+    width: 100%;
+    height: 28vh;
+    /* margin-top: 12px; */
+}
+/* .projectfive{
+    border-radius: 10px;
+} */
+.projectfive p{
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;   
+}
+.projectfivebutton{
+    margin-top: 25px;
+}
+.projectfivecontent h4{
+    font-family: 'Poppins', sans-serif;   
+    font-size: 22px;
+}
+
+.myskill h2{
+    padding: 0px 0px 10px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width:500px) {
+
+    .herosectionmain ,.aboutusmain ,.sreejithprojects ,.sreejithprojectstwo ,.contactdetailfull ,.names ,.mobileandemail{
+        display: block;
+    }
+    .gridlayout {
+        margin: auto;
+        width: 94%;
+    }
+
+    .sreejithimage img{
+        width: 100%;
+        height: auto;
+    }
+    .herosectionimage img {
+        width: 100%;
+        height: auto;
+    }
+    .projectone {
+        width: 100%;
+    }
+
+    .projecttwo{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .projectthree{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .projectfour{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .projectfive{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .contactform{
+        padding: 0px 0px;
+    }
+    .messageone{
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .herosectionmain{
+        padding: 15px 0px;
+    }
+    .subjectone{
+        width: 100%;
+        padding: 18px 0px;
+    }
+    .firstname{
+        width: 100%;
+        padding: 12px 0px;
+    }
+    .lastname {
+        width: 100%;
+        padding: 12px 0px;
+        margin-left: 0px;
+    }
+    .mobilenumber{
+        width: 100%;
+        padding: 12px 0px;
+    }
+    
+    .bg {
+        background: url(./image/education.png);
+        height: auto;
+        background-position: right;
+        background-repeat: no-repeat;
+        /* background-size: 100%; */
+        margin-top: 30px;
+    }
+    .webd {
+        font-size: 12px;
+    }
+    .college {
+        font-size: 12px;
+    }
+    .schoolhsc {
+        font-size: 12px;
+    }
+    .schoolx {
+        font-size: 12px;
+    }
+
+    .educationqualificationheading h2 {
+        font-size: 25px;
+    }
+    .emailid{
+        width: 100%;
+        padding: 12px 0px ;
+        margin-left: 0px;
+    }
+
+    .footerul li {
+        margin-right: 0px;
+    }
+    .footerul{
+        padding: 30px 0px;
+        font-size: 15px;
+        justify-content: space-evenly;
+    }
+
+    .mobileandemail{
+        padding: 0px 0px;
+    }
+    .nametwo{
+        margin-top: 20px;
+    }
+    .emailone{
+        margin-top: 20px;
+    }
+    .sidelogo h2{
+        font-size: 15px;
+        margin-right: 10px;
+    }
+    .maindivul{
+        font-size: 12px;
+    }
+    .downloadcv button{
+        font-size: 10px;
+        padding: 10px 12px;
+    }
+    .aboutuscontent{
+        padding: 20px 0px;
+    }
+    .herosectionimage{
+        display: none;
+    }
+    .showcase{
+        width: 100%;
+        font-size: 13px;
+    }
+    .hi{
+        font-size: 25px;
+    }
+    .sreejithname{
+        font-size: 35px;
+    }
+    .stack {
+        font-size: 20px;
+    }
+    .findme {
+        width: 100%;
+        height: auto;
+    }
+    .name {
+        padding: 0px 0px;
+    }
+    .maindiv{
+        padding: 15px 0px;
+    }
+    .contactone{
+        width: 100%;
+        padding: 0px 0px 30px 0px;
+    }
+
+    .downloadcv{
+        display: none;
+    }
+    .maindivul li {
+        margin-right: 13px;
+    }
+    .maindivul{
+        padding-top: 5px;
+    }
+}
+
+
+@media (min-width: 700px) and (max-width: 850px){
+    .gridlayout{
+        width: 93%;
+    }
+    .herosectionimage img{
+        width: 100%;
+        height: auto;
+    }
+    .showcase{
+        width: 100%;
+        font-size: 18px;
+    }
+    .name{
+        padding: 0px 0px;
+    }
+    .maindiv {
+        padding: 30px 0px;
+    }
+    .sreejithimage img{
+        height: auto;
+        width: 100%;
+    }
+    .aboutusmain{
+        gap: 40px;
+    }
+    .aboutuscontent{
+        padding: 0px 0px;
+    }
+    .aboutuscontent h2{
+        padding: 0px 0px;
+    }
+    .sreejithprojects , .sreejithprojectstwo{
+        display: block;
+    }
+    .projectone{
+        width: 100%;
+        
+    }
+    .projecttwo{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .projectthree{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .projectfour{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .projectfive{
+        width: 100%;
+        margin-top: 40px;
+        
+    }
+    .findme{
+        width: 100%;
+        height: auto;
+    }
+    .phone ,.email ,.address ,.socialmedia{
+        padding: 15px 15px;
+    }
+    .githubfooterimage ,.linkedinfooterimage ,.whatsappfooterimage ,.mailfooterimage{
+        width: 10%;
+    }
+    .contactform{
+        padding: 0px 0px;
+        
+    }   
+    .findme h4{
+        font-size: 22px;
+    }
+    .emailimage h5 ,.address h5 ,.phoneimage h5{
+        font-size: 18px;
+    }
+
+    .contactdetailfull{
+        gap: 20px;
+    }
+    .findme h3{
+        font-size: 23px;
+    }
+    .messageone{
+        width: 91%;
+    }
+    .names{
+        padding: 0px 0px 20px 0px;
+    }
+    .firstname ,.lastname ,.mobilenumber ,.emailid{
+        padding: 12px 12px;
+    }
+    .sidelogo h2{
+        font-size: 22px;
+        margin-top: 4px;
+    }
+    .maindivul li{
+        margin-right: 25px;
+    }
+    .bg {
+        background: url(./image/education.png);
+        height: auto;
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 30px;
+    }
+    .myskill h2 ,.projects h2 ,.contacts h2 ,.footername h2 {
+        font-size: 35px;
+    }
+    .projectonecontent h4 ,.projecttwocontent h4,.projectthreecontent h4 ,.projectfourcontent h4 ,.projectfivecontent h4 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    .projectone p ,.projecttwo p ,.projectthree p ,.projectfour p ,.projectfive p {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    .projectonebutton button ,.projecttwobutton button ,.projectthreebutton button ,.projectfourbutton button ,.projectfivebutton button {
+        padding: 15px 25px;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+}
