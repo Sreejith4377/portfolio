@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Sreejith portfolio - designed by Sreejith</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="shortcut icon" href="./image/portfoliologo.png" type="image/x-icon">
     <link rel="stylesheet" href="./portfolio.css">
     <script type="text/javascript"
@@ -16,6 +19,10 @@
 </script>
 </head>
 <body>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <header>
     <div class="gridlayout">
         <div class="maindiv">
@@ -85,8 +92,8 @@
 
             </div> -->
 
-            <div class="hireme">
-              <a href="#Contact"> <button>Hire Me</button></a>
+            <div class="hireme" >
+               <button data-aos="flip-down"> <a href="#Contact">Hire Me</a></button>
              
 
             </div>
@@ -109,16 +116,16 @@
     <section id="Aboutus">
       <div class="gridlayout">
         <div class="aboutusmain">
-          <div class="sreejithimage">
+          <div class="sreejithimage" data-aos="fade-down-right">
             <img src="./image/sreejithnewone.jpg" alt="">
 
           </div>
-          <div class="aboutuscontent">
+          <div class="aboutuscontent" data-aos="fade-down-left">
             <h2> <span style="color: #2270FF;">About</span> Me</h2>
             <h3>I'm Sreejith,</h3>
             <p>a full-stack web developer specializing in the captivating world of MERN Stack. Proficient in HTML , CSS , JavaScripit , Python , BootStrap, React Js , Nodejs , Wordpress , MongoDB , Figma  and responsive design  frameworks. I create visually enticing user interface. Feel free to explore my portfolio to get a glimpse of my work. If you have a project or an idea you'd like to discuss, I'm always open to new opportunities and collaborations. </p>
-            <div class="downloadcvaboutus">
-              <button> <a href="./image/sreejith resume image.pdf" target="_blank">Download CV</a></button>
+            <div class="downloadcvaboutus" >
+              <button > <a href="./image/sreejith resume image.pdf" target="_blank">Download CV</a></button>
   
             </div>
   
@@ -130,7 +137,7 @@
 
     </section>
     <section id="Education">
-      <div class="bg">
+      <div class="bg" >
         <div class="gridlayout">
           <div class="educationmain">
             <div class="educationqualificationheading">
@@ -195,7 +202,7 @@
     </section>
     <section id="Skill">
       <div class="gridlayout">
-        <div class="myskill">
+        <div class="myskill" data-aos="zoom-in-left">
           <h2>MY <span style="color: #2270FF;">SKILLS</span> </h2>
 
           <div class="skillone">
@@ -288,7 +295,9 @@
 
           <div class="sreejithprojects">
 
-            <div class="projectone">
+            <div class="projectone" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <img src="./image/sports screenshot.PNG" alt="" >
               <div class="projectonecontent">
                 <h4>Sports Shop</h4>
@@ -304,7 +313,9 @@
               </div>
 
             </div>
-            <div class="projecttwo">
+            <div class="projecttwo" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <img src="./image/restaurantscreenshot.PNG" alt="" width="100%">
               <div class="projecttwocontent">
                 <h4>Restaurant </h4>
@@ -320,7 +331,9 @@
               </div>
 
             </div>
-            <div class="projectthree">
+            <div class="projectthree" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <img src="./image/shoe screenshot.PNG" alt="" width="100%">
               <div class="projectthreecontent">
                 <h4>Shoe Shop</h4>
@@ -342,7 +355,9 @@
           </div>
           <div class="sreejithprojectstwo">
 
-            <div class="projectfour">
+            <div class="projectfour" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <img src="./image/weather screenshot.PNG" alt="" >
               <div class="projectfourcontent">
                 <h4>Weather</h4>
@@ -358,7 +373,9 @@
               </div>
 
             </div>
-            <div class="projectfive">
+            <div class="projectfive" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <img src="./image/form.png" alt="" >
               <div class="projectfivecontent">
                 <h4>Sign Up Form</h4>
@@ -374,7 +391,9 @@
               </div>
 
             </div>
-            <div class="projectfour">
+            <div class="projectfour" data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
               <img src="./image/construction site.png" alt="" >
               <div class="projectfourcontent">
                 <h4>Construction</h4>
@@ -411,7 +430,9 @@
           <h2> <span style="color: #2270FF;"> CONTACT</span> ME</h2>
 
           <div class="contactdetailfull">
-            <div class="contactone">
+            <div class="contactone" data-aos="fade-right"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine">
               <div class="findme">
                 <h3>FIND ME</h3>
                 <div class="contactdetails">
@@ -476,7 +497,9 @@
   
             </div>
   
-            <div class="contactform">
+            <div class="contactform" data-aos="fade-left"
+            data-aos-offset="500"
+            data-aos-easing="ease-in-sine">
               <div class="names">
                 <div class="nameone">
                   <input type="text" placeholder="First Name" class="firstname" id="firstname">
@@ -547,13 +570,15 @@
   <footer>
     <div class="footersection">
       <div class="gridlayout">
-        <div class="footername">
+        <div class="footername" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000">
            <h2><a href="#Aboutus">SREEJITH.S </a></h2>
          
         </div>
 
         <div>
-          <ul class="footerul">
+          <ul class="footerul" data-aos="zoom-in-up" >
             <li> <a href="#Home">Home</a></li>
             <li> <a href="#Aboutus">About</a></li>
             <li> <a href="#Education">Education</a></li>
